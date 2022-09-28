@@ -1,0 +1,299 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+}
+[class*="container"] {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 20px 0 0 0;
+}
+
+.header {
+}
+.main {
+}
+.hw {
+  font-weight: 700;
+  font-size: 24px;
+  color: red;
+  margin-bottom: 20px;
+}
+.page__container {
+}
+.page-title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1e212c;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.page-text-about {
+  width: 600px;
+  line-height: 160%;
+  color: #424551;
+  margin-bottom: 48px;
+}
+.page-program {
+}
+.program-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: #1e212c;
+  margin-bottom: 24px;
+}
+.program-list {
+  margin-bottom: 48px;
+}
+.program-item {
+  line-height: 160%;
+  color: #424551;
+  background: url("../img/check.svg") 0 6px no-repeat;
+  padding-left: 32px;
+}
+.program-list:not(:last-child) {
+  margin-bottom: 4px;
+}
+.page-curator {
+}
+.curator-title {
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1e212c;
+  margin-bottom: 8px;
+}
+.curator-name {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1e212c;
+  margin-bottom: 16px;
+}
+.curator-position {
+  font-size: 20px;
+  line-height: 150%;
+  color: #787a80;
+  margin-bottom: 32px;
+}
+.curator-rating-list {
+  margin-bottom: 32px;
+}
+.curato-rating-item {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+  padding-left: 24px;
+}
+.curato-rating-item:not(:last-child) {
+  margin-bottom: 4px;
+}
+.curato-rating-item:first-child {
+  background: url("../img/star.svg") 0 5px no-repeat;
+}
+.curato-rating-item:nth-child(2) {
+  background: url("../img/play.svg") 0 5px no-repeat;
+}
+.curato-rating-item:last-child {
+  background: url("../img/person.svg") 0 5px no-repeat;
+}
+
+.curator-text {
+  width: 600px;
+  line-height: 160%;
+  color: #424551;
+}
+
+/* practice */
+
+.practice {
+  font-weight: 700;
+  font-size: 24px;
+  color: red;
+  margin-bottom: 20px;
+}
+.second-page {
+}
+.second-page__container {
+}
+.second-page-subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1e212c;
+  margin-bottom: 8px;
+}
+.second-page-title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1e212c;
+  margin-bottom: 60px;
+}
+.second-page-image {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.second-page-image img {
+  max-width: 100%;
+}
+.second-page-firstlist {
+}
+.second-page-list-item {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  /* padding-left: 40px; */
+  color: #1e212c;
+  /* min-height: 35px; */
+}
+.second-page-firstlist {
+  margin-bottom: 16px;
+}
+.link {
+  font-size: 20px;
+  line-height: 150%;
+  color: #ff3f3a;
+  margin-right: 8px;
+}
+.second-page-firstlist a::before {
+  background: url("../img/minus.svg") 0 10px no-repeat;
+  content: "";
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+  margin-right: 28px;
+}
+.second-page-firstlist a:hover::before {
+  transition: all 0.8s ease 0s;
+  transform: rotate(360deg);
+}
+.second-page-firstlist li::after {
+  content: "Done";
+  font-size: 20px;
+  line-height: 150%;
+  color: #ff3f3a;
+  text-transform: uppercase;
+  margin-left: 8px;
+}
+.list-item-text {
+  width: 560px;
+  line-height: 160%;
+  color: #424551;
+  margin-bottom: 24px;
+}
+.second-page-secondlist {
+}
+.second-page-secondlist li:not(:last-child) {
+  margin-bottom: 24px;
+}
+.second-page-secondlist:last-child {
+  margin-bottom: 60px;
+}
+.second-page-secondlist a::before {
+  background: url("../img/plus.svg") 0 0 no-repeat;
+  content: "";
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+  margin-right: 28px;
+}
+.second-page-secondlist a:hover::before {
+  transition: all 0.8s ease 0s;
+  transform: rotate(-360deg);
+}
+.link:focus {
+  color: blueviolet;
+}
+.link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* game */
+
+.third-page {
+  max-width: 100%;
+  padding: 0 0 200px 60px;
+  background-color: azure;
+}
+
+.third-page-subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1e212c;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.third-page-title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: red;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.block-card {
+  display: inline-block;
+  width: 160px;
+  height: 220px;
+  border: 1px solid #000;
+  box-shadow: inset 0 0 20px #333;
+  padding: 8px;
+  margin: 0 5px 5px 0;
+}
+
+.block-item {
+  display: block;
+  margin: 0 auto;
+  opacity: 0;
+  visibility: hidden;
+}
+.block-card:active .block-item {
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+  width: 200px;
+  height: 260px;
+  transition: width 1s, height 1s, transform 1s;
+  transform: rotate(360deg);
+}
+
+.block-card-king {
+  display: inline-block;
+  width: 160px;
+  height: 220px;
+  border: 1px solid #000;
+  box-shadow: inset 0 0 20px #333;
+  padding: 8px;
+  margin: 0 5px 5px 0;
+}
+
+.block-item-king {
+  display: block;
+  border: 2px solid red;
+  box-shadow: 5px 10px 18px red;
+  margin: 0 auto;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.block-card-king:active .block-item-king {
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+  width: 280px;
+  height: 340px;
+  transition: width 1s, height 1s, transform 3s;
+  transform: rotate(360deg);
+}
